@@ -1,0 +1,44 @@
+.jumbotron{
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Best-Website-New-Wallpaper.jpg);
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  .card-deck.container{
+    margin-left: 100px; 
+    padding-top: 20px;
+  }
+
+  #app{
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  #footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    gap: 10px;
+  }
+  #back{
+    background-color: aqua;
+  }
+  #pi{
+    color: black;
+  }
+
+@media (max-width: 576px) {
+  .card-deck.container {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #app {
+    width: 100%;
+    max-width: 200px;
+  }
+}
